@@ -19,9 +19,9 @@ const Persik = props => (
 				{osName === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
 			</PanelHeaderButton>}
 		>
-			Persik
+			love creator is <a href={vk.com/id596488873}></a>
 		</PanelHeader>
-		<img className="Persik" src={persik} alt="Persik The Cat"/>
+
 	</Panel>
 );
 
