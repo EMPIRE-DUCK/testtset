@@ -22,7 +22,7 @@ const Persik = props => (
 		>
 			Persik
 		</PanelHeader>
-		<Button href="https://vk.com/id596488873" size="xl" mode="secondary">Секретная девчонка❤</Button>
+		<Button target="_blank" rel="noopener noreferrer" href="https://vk.com/id596488873" size="xl" mode="secondary">Секретная девчонка❤</Button>
 	</Panel>
 );
 
