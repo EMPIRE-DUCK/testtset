@@ -6,7 +6,7 @@ import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader
 import PanelHeaderButton from '@vkontakte/vkui/dist/components/PanelHeaderButton/PanelHeaderButton';
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
-import Button from '@vkontakte/vkui';
+import Button from '@vkontakte/vkui/dist/components/Button/Button';
 
 import persik from '../img/persik.png';
 import './Persik.css';
@@ -22,7 +22,7 @@ const Persik = props => (
 		>
 			Persik
 		</PanelHeader>
-		<Button target="_blank" rel="noopener noreferrer" href="https://vk.com/id596488873" size="xl" mode="secondary">Секретная девчонка❤</Button>
+		<a target="_blank" rel="noopener noreferrer" href="https://vk.com/id596488873"> <Button  size="xl" mode="secondary">Секретная девчонка❤</Button></a>
 	</Panel>
 );
 
