@@ -17,7 +17,7 @@ const Home = ({ id, go, fetchedUser }) => (
 				before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
 				description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
 			>
-				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
+				{`${fetchedUser.first_name} ${fetchedUser.last_name}`} <3
 			</Cell>
 		</Group>}
 
