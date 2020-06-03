@@ -18,14 +18,13 @@ const Home = ({ id, go, fetchedUser }) => (
 				description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
 			>
 				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
-
 			</Cell>
 		</Group>}
 
 		<Group title="Navigation Example">
 			<Div>
 				<Button size="xl" level="2" onClick={go} data-to="persik">
-					Show me the love creator, please
+					Show me the Persik, please
 				</Button>
 			</Div>
 		</Group>
