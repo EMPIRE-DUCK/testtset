@@ -14,12 +14,7 @@ import persik from '../img/persik.png';
 import './Persik.css';
 
 const osName = platform();
-count = 0;
-function syja() {
-	setInterval(
-	count++
-	, 2000);
-}
+
 const Persik = props => (
 	<Panel id={props.id}>
 		<PanelHeader
@@ -32,7 +27,7 @@ const Persik = props => (
 		<Div>
 			<Progress value={count} />
 			<br />
-			<Button  size="xl" level="2" onClick={syja}>Простокнопка</Button>
+			<Button  size="xl" level="2">Простокнопка</Button>
 		</Div>
 	</Panel>
 );
