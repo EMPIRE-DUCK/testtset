@@ -22,6 +22,7 @@ const Persik = props => (
 		>
 			Persik
 		</PanelHeader>
+		<Progress value={40} />
 		
 	</Panel>
 );
