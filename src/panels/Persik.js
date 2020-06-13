@@ -8,6 +8,7 @@ import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
 import Button from '@vkontakte/vkui/dist/components/Button/Button';
 import Progress from '@vkontakte/vkui/dist/components/Progress/Progress';
+import Div from '@vkontakte/vkui/dist/components/Div/Div';
 
 import persik from '../img/persik.png';
 import './Persik.css';
