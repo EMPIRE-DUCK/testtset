@@ -24,7 +24,7 @@ const Home = ({ id, go, fetchedUser, count }) => (
 
 		<Group title="Navigation Example">
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="persik">
+				<Button size="xl" level="2" onClick={() => setCount(count + 1)} data-to="persik">
 					click
 				</Button>
 			</Div>
