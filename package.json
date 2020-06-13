@@ -12,7 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "homepage": "https://testtset.empire-duck.now.sh/",
+  "homepage": "testtset.vercel.app",
   "devDependencies": {
     "cross-env": "^5.2.0",
     "gh-pages": "^3.0.0",
