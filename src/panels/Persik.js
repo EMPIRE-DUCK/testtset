@@ -25,7 +25,7 @@ const Persik = props => (
 			Persik
 		</PanelHeader>
 		<Div>
-			<Progress value={count} />
+			<Progress value=50 />
 			<br />
 			<Button  size="xl" level="2">Простокнопка</Button>
 		</Div>
